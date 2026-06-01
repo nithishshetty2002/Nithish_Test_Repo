@@ -1,5 +1,10 @@
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class Main {
-  public static void main[] {
-    System.out.println("Hello120");
-  }
+    private static final Logger logger = LoggerFactory.getLogger(Main.class);
+
+    public static void main(String[] args) {
+        logger.info("Application started");
+    }
 }
