@@ -1,5 +1,5 @@
 public class Main {
   public static void main[] {
-    System.out.println("Hello130");
+    System.out.println("Hello Moto");
   }
 }
