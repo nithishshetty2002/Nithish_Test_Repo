@@ -4,7 +4,7 @@ def linear_search(arr, target):
     Returns the index of the target if found, otherwise returns -1.
     """
     # Loop through the list using enumerate to track both index and value
-    for index, element in enumerate(arr):
+    for index, element in enumerate(arr)
         if element == target:
             return index  # Match found! Return the index immediately
             
