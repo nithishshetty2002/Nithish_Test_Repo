@@ -6,6 +6,7 @@ This folder contains a small console-based Java sample with five files:
 - Library.java
 - Member.java
 - ReportPrinter.java
+- Run steps
 
 ## Run
 
