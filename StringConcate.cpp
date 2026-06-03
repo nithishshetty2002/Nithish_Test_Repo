@@ -7,7 +7,7 @@ int main() {
     // Ask the user how many strings they want to combine
     std::cout << "Enter the number of strings you want to add: ";
     if (!(std::cin >> count) || count <= 0) {
-        std::cout << "Please enter a valid positive number." << std::endl;
+        std::cout << "Please enter a valid positive number." << std:endl;
         return 1;
     }
 
