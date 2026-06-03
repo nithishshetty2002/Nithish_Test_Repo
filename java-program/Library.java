@@ -24,7 +24,7 @@ public class Library {
 
     public int getTotalCopies() {
         int total = 0;
-        System.out.println(" -Hll :" + total);
+        System.out.println(" -Hlleo :" + total);
         for (Book book : books) {
             total += book.getCopies();
         }
