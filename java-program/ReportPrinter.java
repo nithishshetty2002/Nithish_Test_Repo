@@ -5,7 +5,7 @@ public class ReportPrinter {
         System.out.println("Member: " + member.getName());
         System.out.println("Borrowed books:");
         for (Book book : member.getBorrowedBooks()) {
-            System.out.println("- " + book.getTitle() + " by " + book.getAuthor());
+            System.out.println(" - " + book.getTitle() + " by " + book.getAuthor());
         }
     }
 }
